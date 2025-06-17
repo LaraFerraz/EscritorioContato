@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="images/logo2.jpeg" rel="shortcut icon">
 </head>
-<body>
+<body class="pt-5 mb-4">
     <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div class="container-fluid">
@@ -41,7 +41,6 @@
   </div>
 </nav>
 </header>
-<body class="pt-5">
     
         <?php
             $page = $_GET['page'] ?? 'home';
@@ -59,7 +58,7 @@
                 case 'home':
                 default:
         ?>
-        <img src="images/banner.png" class="img-fluid w-100" alt="banner">
+        <img src="images/banner3.png" class="img-fluid w-100" alt="banner" style="height: 400px; object-fit: cover;">
                     <main class="container">
                         <section class="mt-5 d-flex flex-column align-items-center justify-content-center">
                             <h2 class="text-center">Seja Bem-vindo</h2>
@@ -158,7 +157,7 @@
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4">
-        <p>© 2025 Nome do Escritório de Contabilidade. Todos os direitos reservados.</p>
+        <p>© 2025 Escritório Contato. Todos os direitos reservados.</p>
         <p>
             <a href="#" class="text-white text-decoration-none mx-2">
                 <i class="fa-brands fa-whatsapp"></i>
