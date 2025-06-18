@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escritório Contato</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=VMeks02W"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="images/logo2.jpeg" rel="shortcut icon">
 </head>
-<body class="pt-5 mb-4">
+<body>
     <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div class="container-fluid">
@@ -30,9 +30,9 @@
           <a class="nav-link dropdown-toggle" href="#servicos" role="button" data-bs-toggle="dropdown">SERVIÇOS</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="index.php?page=servicos#servicos-contabeis">Serviços Contábeis</a></li>
-            <li><a class="dropdown-item" href="?param=servicos">Assessoria Empresarial</a></li>
-            <li><a class="dropdown-item" href="?param=servicos">Imposto de Renda</a></li>
-            <li><a class="dropdown-item" href="?param=servicos">ITR</a></li>
+            <li><a class="dropdown-item" href="index.php?page=servicos#sassessoria-empresarial">Assessoria Empresarial</a></li>
+            <li><a class="dropdown-item" href="index.php?page=servicos#imposto-renda">Imposto de Renda</a></li>
+            <li><a class="dropdown-item" href="index.php?page=servicos#itr">ITR</a></li>
           </ul>
         </li>
         <li class="nav-item"><a class="nav-link" href="index.php?page=contato">CONTATO</a></li>
@@ -60,7 +60,9 @@
         ?>
         <img src="images/banner3.png" class="img-fluid w-100" alt="banner" style="height: 400px; object-fit: cover;">
                     <main class="container">
-                        <section class="mt-5 d-flex flex-column align-items-center justify-content-center">
+                       <section class="mt-4 d-flex flex-column align-items-center" style="text-align: justify;">
+                            <br>
+                            <br>
                             <h2 class="text-center">Seja Bem-vindo</h2>
                                 <p>
                                     No Escritório Contato, entendemos que cuidar da contabilidade vai muito além de números e obrigações fiscais, trata-se de oferecer tranquilidade, organização e apoio estratégico para pessoas físicas, empreendedores e empresas que querem crescer com segurança.
@@ -142,6 +144,8 @@
 
                     <!-- Seção Escritório -->
                     <section class="mt-5 text-center">
+                        <br>
+                        <br>
                         <h2>Nosso Escritório</h2>
                         <!-- Espaço para Imagem -->
                         <p>Rua  Roberto Brzezinski, 653, sala 01 - Campo Mourão/Paraná</p>

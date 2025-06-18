@@ -9,16 +9,57 @@ html {
 
 
 .card {
-    box-shadow: 10px #000000;
+    box-shadow: 10px #122c40;
 }
 
 .card:hover {
     transform: scale(1.05);
     transition: 0.2s ease-in-out;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px #122c40;
   }
-
 
 a {
   text-decoration: none;
+}
+
+.section-dark {
+  background-color: #122c40;
+  color: #fff;
+}
+
+.section-light {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.section-gray {
+  background-color: #52665d;
+  color: #fff;
+}
+
+.servico {
+  padding: 30px 0;
+}
+
+.servico .row {
+  align-items: center;
+}
+
+.servico img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+body {
+    padding-top: 100px; 
+}
+
+.navbar-brand img {
+    margin-right: 10px; 
+  }
+
+.mt-5 {
+  background-color: #122c40;
+  color: #fff;
 }
