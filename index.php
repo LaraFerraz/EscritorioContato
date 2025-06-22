@@ -77,64 +77,51 @@
                                 </p>
                         </section>
                     </main>
-                    <section class="container my-5">
-                <h2 class="text-center mb-4">Nossos Serviços</h2>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-
-                    <!-- Serviços Contábeis -->
-                    <div class="col">
-                    <a href="index.php?page=servicos#servicos-contabeis" class="text-decoration-none text-dark">
-                        <div class="card" style="width: 15rem;">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Serviços Contábeis</h5>
-                            <p class="card-text">Escrituração contábil, apuração de impostos e entrega de obrigações fiscais para manter sua empresa em dia.</p>
-                            </div>
-                            <img src="images/cor.card.png" class="card-img-bottom" style="height:60px; " alt="imagem cor azul">
-                        </div>
-                    </a>
+                   <section class="container my-5 servicos-bg-area"> <h2 class="text-center mb-4">Nossos Serviços</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center"> <div class="col">
+            <a href="index.php?page=servicos#servicos-contabeis" class="text-decoration-none text-dark">
+                <div class="card h-100"> <div class="card-body">
+                        <h5 class="card-title text-center">Serviços Contábeis</h5>
+                        <p class="card-text">Escrituração contábil, apuração de impostos e entrega de obrigações fiscais para manter sua empresa em dia.</p>
                     </div>
-
-                    <!-- Assessoria Empresarial -->
-                    <div class="col">
-                    <a href="index.php?page=servicos#assessoria-empresarial" class="text-decoration-none text-dark">
-                        <div class="card" style="width: 15rem;">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Assessoria Empresarial</h5>
-                            <p class="card-text">Abertura, regularização e suporte estratégico para empresas em todas as etapas do negócio.</p>
-                            </div>
-                            <img src="images/cor.card.png" class="card-img-bottom" style="height:60px; " alt="imagem cor azul">
-                        </div>
-                    </a>
-                    </div>
-
-                    <!-- Imposto de Renda -->
-                    <div class="col">
-                    <a href="index.php?page=servicos#imposto-renda" class="text-decoration-none text-dark">
-                        <div class="card" style="width: 15rem;">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Imposto de Renda</h5>
-                            <p class="card-text">Declaração de IR para pessoas físicas e jurídicas com atenção a todos os detalhes e deduções legais.</p>
-                            </div>
-                            <img src="images/cor.card.png" class="card-img-bottom" style="height:60px; " alt="imagem cor azul">
-                        </div>
-                        </div>
-                    </a>
-                    </div>
-
-                    <!-- ITR -->
-                    <div class="col">
-                    <a href="index.php?page=servicos#itr" class="text-decoration-none text-dark">
-                        <div class="card" style="width: 15rem;">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">ITR</h5>
-                            <p class="card-text">Preenchimento e envio da Declaração do Imposto Territorial Rural com conformidade e agilidade.</p>
-                            </div>
-                            <img src="images/cor.card.png" class="card-img-bottom" style="height:60px; " alt="imagem cor azul">
-                        </div>
-                        </div>
-                    </a>
-                    </div>
+                    <img src="images/card4.png" class="card-img-bottom" style="height:60px;" alt="imagem cor azul">
                 </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="index.php?page=servicos#assessoria-empresarial" class="text-decoration-none text-dark">
+                <div class="card h-100"> <div class="card-body">
+                        <h5 class="card-title text-center">Assessoria Empresarial</h5>
+                        <p class="card-text">Abertura, regularização e suporte estratégico para empresas em todas as etapas do negócio.</p>
+                    </div>
+                    <img src="images/cor.card.png" class="card-img-bottom" style="height:60px;" alt="imagem cor azul">
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="index.php?page=servicos#imposto-renda" class="text-decoration-none text-dark">
+                <div class="card h-100"> <div class="card-body">
+                        <h5 class="card-title text-center">Imposto de Renda</h5>
+                        <p class="card-text">Declaração de IR para pessoas físicas e jurídicas com atenção a todos os detalhes e deduções legais.</p>
+                    </div>
+                    <img src="images/card2.png" class="card-img-bottom" style="height:60px;" alt="imagem cor azul">
+                </div>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="index.php?page=servicos#itr" class="text-decoration-none text-dark">
+                <div class="card h-100"> <div class="card-body">
+                        <h5 class="card-title text-center">ITR</h5>
+                        <p class="card-text">Preenchimento e envio da Declaração do Imposto Territorial Rural com conformidade e agilidade.</p>
+                    </div>
+                    <img src="images/card3.png" class="card-img-bottom" style="height:60px;" alt="imagem cor azul">
+                </div>
+            </a>
+        </div>
+    </div>
 </section>
 
 
@@ -165,9 +152,6 @@
             <a href="https://www.instagram.com/escritoriocontato_/" class="text-white  text-decoration-none mx-2">
                 <i class="fa-brands fa-instagram"></i>
             </a> |
-            <a href="#" class="text-white  text-decoration-none mx-2">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
         </p>
     </footer>
 
