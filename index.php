@@ -30,7 +30,7 @@
           <a class="nav-link dropdown-toggle" href="#servicos" role="button" data-bs-toggle="dropdown">SERVIÇOS</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="index.php?page=servicos#servicos-contabeis">Serviços Contábeis</a></li>
-            <li><a class="dropdown-item" href="index.php?page=servicos#sassessoria-empresarial">Assessoria Empresarial</a></li>
+            <li><a class="dropdown-item" href="index.php?page=servicos#assessoria-empresarial">Assessoria Empresarial</a></li>
             <li><a class="dropdown-item" href="index.php?page=servicos#imposto-renda">Imposto de Renda</a></li>
             <li><a class="dropdown-item" href="index.php?page=servicos#itr">ITR</a></li>
           </ul>
@@ -84,13 +84,12 @@
                     <!-- Serviços Contábeis -->
                     <div class="col">
                     <a href="index.php?page=servicos#servicos-contabeis" class="text-decoration-none text-dark">
-                        <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Serviços Contábeis</h5>
-                            <p class="card-text">
-                            Escrituração contábil, apuração de impostos e entrega de obrigações fiscais para manter sua empresa em dia.
-                            </p>
-                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Serviços Contábeis</h5>
+                            <p class="card-text">Escrituração contábil, apuração de impostos e entrega de obrigações fiscais para manter sua empresa em dia.</p>
+                            </div>
+                            <img src="images/cor.card.png" class="card-img-bottom" style="height:60px; " alt="imagem cor azul">
                         </div>
                     </a>
                     </div>
@@ -98,13 +97,12 @@
                     <!-- Assessoria Empresarial -->
                     <div class="col">
                     <a href="index.php?page=servicos#assessoria-empresarial" class="text-decoration-none text-dark">
-                        <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Assessoria Empresarial</h5>
-                            <p class="card-text">
-                            Abertura, regularização e suporte estratégico para empresas em todas as etapas do negócio.
-                            </p>
-                        </div>
+                        <div class="card" style="width: 15rem;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Assessoria Empresarial</h5>
+                            <p class="card-text">Abertura, regularização e suporte estratégico para empresas em todas as etapas do negócio.</p>
+                            </div>
+                            <img src="images/cor.card.png" class="card-img-bottom" style="height:60px; " alt="imagem cor azul">
                         </div>
                     </a>
                     </div>
@@ -112,12 +110,12 @@
                     <!-- Imposto de Renda -->
                     <div class="col">
                     <a href="index.php?page=servicos#imposto-renda" class="text-decoration-none text-dark">
-                        <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Imposto de Renda</h5>
-                            <p class="card-text">
-                            Declaração de IR para pessoas físicas e jurídicas com atenção a todos os detalhes e deduções legais.
-                            </p>
+                        <div class="card" style="width: 15rem;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Imposto de Renda</h5>
+                            <p class="card-text">Declaração de IR para pessoas físicas e jurídicas com atenção a todos os detalhes e deduções legais.</p>
+                            </div>
+                            <img src="images/cor.card.png" class="card-img-bottom" style="height:60px; " alt="imagem cor azul">
                         </div>
                         </div>
                     </a>
@@ -126,19 +124,17 @@
                     <!-- ITR -->
                     <div class="col">
                     <a href="index.php?page=servicos#itr" class="text-decoration-none text-dark">
-                        <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">ITR</h5>
-                            <p class="card-text">
-                            Preenchimento e envio da Declaração do Imposto Territorial Rural com conformidade e agilidade.
-                            </p>
+                        <div class="card" style="width: 15rem;">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">ITR</h5>
+                            <p class="card-text">Preenchimento e envio da Declaração do Imposto Territorial Rural com conformidade e agilidade.</p>
+                            </div>
+                            <img src="images/cor.card.png" class="card-img-bottom" style="height:60px; " alt="imagem cor azul">
                         </div>
                         </div>
                     </a>
                     </div>
                 </div>
-
-  <br>
 </section>
 
 
