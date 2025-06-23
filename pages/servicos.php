@@ -16,10 +16,12 @@
         <img src="images/serviços.png" class="img-fluid m-5 w-50" 
  alt="serviços contábeis">
         </div>
+        <br>
         <h3 class="text-center">  O Que Nossos Serviços Contábeis Oferecem? </h3>
         <div class="col-md-6">
         <img src="images/serviços-contabeis.jpg" alt="Assessoria Empresarial" class="img-fluid" style="width: 500px">
         </div>
+        <br>
         <div class="col-md-6">
         <p class="mt-4 d-flex flex-column align-items-center" style="text-align: justify">
 <ul class="mt-4 d-flex flex-column align-items-center" style="text-align: justify">
@@ -52,6 +54,7 @@ Orientação e Planejamento Tributário: Analisamos o regime tributário mais ad
     <div class="row">
       <div class="col-md-6">
         <h2 class="text-center">Assessoria Empresarial</h2>
+        <br>
         <p class="mt-4 d-flex flex-column align-items-center" style="text-align: justify">No ambiente de negócios dinâmico de Campo Mourão e região, ter uma assessoria empresarial confiável é um diferencial competitivo. No Escritório Contato, entendemos que empreender é um desafio constante, e por isso, nossos serviços de assessoria empresarial são desenhados para oferecer o suporte estratégico e operacional que sua empresa precisa em todas as etapas, desde a sua fundação até a consolidação e expansão.
             <br>
         Nossa missão é ser seu parceiro de confiança, orientando você a tomar decisões mais assertivas, otimizar processos e garantir que seu negócio esteja sempre em conformidade com as exigências legais e fiscais.</p>
@@ -59,6 +62,8 @@ Orientação e Planejamento Tributário: Analisamos o regime tributário mais ad
         <div class="col-md-6">
         <img src="images/assessoria-empresarial.jpg" alt="Assessoria Empresarial" class="img-fluid">
         </div>
+        <br>
+        <br>
         <br>
         <h3 class="text-center"> O Que Nossos Serviços de Assessoria Empresarial Oferecem? </h3>
         <div class="col-md-6">

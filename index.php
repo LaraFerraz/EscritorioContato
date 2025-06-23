@@ -146,16 +146,19 @@
     <footer class="bg-dark text-white text-center py-4">
         <p>© 2025 Escritório Contato. Todos os direitos reservados.</p>
         <p>
-            <a href="#" class="text-white text-decoration-none mx-2">
+            <a href="https://wa.me/5544999871789" target="_blank" class="text-white text-decoration-none mx-2">
                 <i class="fa-brands fa-whatsapp"></i>
             </a> |
-            <a href="https://www.instagram.com/escritoriocontato_/" class="text-white  text-decoration-none mx-2">
+            <a href="https://www.instagram.com/escritoriocontato_/" target="_blank" class="text-white  text-decoration-none mx-2">
                 <i class="fa-brands fa-instagram"></i>
             </a> |
+             <a href="tel:+554435231815" class="text-white  text-decoration-none mx-2">
+                <i class="fa-solid fa-phone"></i>
+            </a> 
         </p>
     </footer>
 
-    <!-- Scripts Bootstrap -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
