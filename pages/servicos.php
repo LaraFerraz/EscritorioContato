@@ -13,9 +13,11 @@
         <br>
       </div>
       <div class="col-md-6">
-        <img src="images/serviços.png" class="img-fluid m-5 w-50" 
+        <img src="images/newserviços.png" class="img-fluid" 
  alt="serviços contábeis">
         </div>
+         <br>
+        <br>
         <br>
         <h3 class="text-center">  O Que Nossos Serviços Contábeis Oferecem? </h3>
         <div class="col-md-6">
@@ -106,7 +108,7 @@ Orientação e Planejamento Tributário: Analisamos o regime tributário mais ad
         </p>
       </div>
       <div class="col-md-6">
-        <img src="images/imposto-renda.png" alt="Imposto de Renda" class="img-fluid w-50 m-5">
+        <img src="images/newimposto.png" alt="Imposto de Renda" class="img-fluid">
       </div>
       <div class="col-md-6">
         <img src="images/imposto.png" alt="Imposto de Renda" class="img-fluid w-75 m-4">
@@ -141,7 +143,7 @@ Para empresas, o Imposto de Renda é um reflexo da saúde financeira e da confor
           Para proprietários rurais, a declaração do Imposto sobre a Propriedade Territorial Rural (ITR) é uma obrigação anual essencial. No Escritório Contato, entendemos que a legislação do ITR pode apresentar suas particularidades e desafios, mas estamos aqui para tornar esse processo simples, preciso e eficiente para você.</p>
       </div>
       <div class="col-md-6">
-        <img src="images/itr.png" alt="ITR" class="img-fluid w-50 m-5">
+        <img src="images/newitr.png" alt="ITR" class="img-fluid w-50 m-4">
       </div>
       <h3 class="text-center">  O Que Nossos Serviços de ITR Oferecem? </h3>
         <div class="col-md-6">

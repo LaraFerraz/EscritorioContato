@@ -12,10 +12,10 @@
         <h2 class="mb-4 text-center  ">Sobre Nós</h2>
         <div class="align-items-center" style="text-align: justify">
         <p>
-          Com mais de <strong>30 anos de atuação</strong>, o Escritório Contato é sinônimo de confiança, agilidade e dedicação no setor contábil de <strong>Campo Mourão – PR</strong>. Localizado na <strong>Rua Roberto Brzezinski, 653, sala 01</strong>, o escritório se destaca por oferecer <strong>atendimento personalizado</strong> tanto para pessoas físicas quanto para <strong>diversos tipos de empresas</strong>, independentemente do porte ou segmento.
+          Com mais de <strong>30 anos de atuação</strong>, o Escritório Contato é sinônimo de confiança, agilidade e dedicação no setor contábil de <strong>Campo Mourão – PR</strong>. Localizado na <strong>Rua Roberto Brzezinski, 653, sala 01</strong>, o escritório se destaca por oferecer <strong>atendimento personalizado</strong> tanto para pessoas físicas quanto jurídicas.
         </p>
         <p>
-          Ao longo das décadas, o Escritório Contato acompanhou de perto as mudanças do cenário contábil e empresarial: da evolução das tecnologias à complexidade das legislações fiscais, passando pelos desafios da pandemia de Covid-19. Mesmo diante das transformações, manteve sua essência: <strong>atender com excelência e proximidade</strong>, sempre buscando <strong>soluções rápidas e eficientes</strong> para cada cliente.
+          Ao longo de décadas, o Escritório Contato acompanhou de perto as mudanças do cenário contábil e empresarial desde a evolução das tecnologias à complexidade das legislações fiscais, passando pelos desafios da pandemia de Covid-19. Mesmo diante das transformações, manteve sua essência: <strong>atender com excelência e proximidade</strong>, sempre buscando <strong>soluções rápidas e eficientes</strong> para cada cliente.
         </p>
         <p>
           Um dos grandes diferenciais do nosso trabalho está no <strong>contato direto com o contador responsável</strong>, permitindo alinhamento claro de expectativas, agilidade nas resoluções e um relacionamento baseado na confiança. Além disso, contamos com uma <strong>equipe dedicada, capacitada e comprometida</strong> em garantir que cada demanda seja tratada com atenção e responsabilidade.

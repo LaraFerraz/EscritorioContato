@@ -12,6 +12,21 @@
     <link href="images/logo2.jpeg" rel="shortcut icon">
 </head>
 <body>
+    
+<div id="cookieModal" class="modal-cookie" style="display: none;">
+  <div class="modal-cookie-content">
+    <h4>Este site usa cookies 🍪</h4>
+    <p>Utilizamos cookies para melhorar sua experiência, personalizar conteúdo e analisar nosso tráfego. Leia nossa 
+     <a href="index.php?page=politica" target="_blank">Política de Cookies</a>.
+    </p>
+    <div class="modal-cookie-buttons">
+      <button onclick="aceitarCookies()">Aceitar todos</button>
+      <button onclick="recusarCookies()">Recusar</button>
+      <button onclick="abrirConfig()">Gerenciar cookies</button>
+    </div>
+  </div>
+</div>
+
     <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
   <div class="container-fluid">
@@ -46,6 +61,9 @@
             $page = $_GET['page'] ?? 'home';
 
             switch ($page) {
+                case 'politica':
+                    include 'pages/politica.php';
+                    break;
                 case 'sobre-nos':
                     include 'pages/sobre-nos.php';
                     break;
@@ -92,7 +110,7 @@
         <div class="col">
             <a href="index.php?page=servicos#assessoria-empresarial" class="text-decoration-none text-dark">
                 <div class="card h-100"> <div class="card-body">
-                        <h5 class="card-title text-center">Assessoria Empresarial</h5>
+                        <h5 class="card-title text-center">Assessoria</h5>
                         <p class="card-text">Abertura, regularização e suporte estratégico para empresas em todas as etapas do negócio.</p>
                     </div>
                     <img src="images/cor.card.png" class="card-img-bottom" style="height:60px;" alt="imagem cor azul">
@@ -132,7 +150,7 @@
                         <h2>Nosso Escritório</h2>
                         <!-- Espaço para Imagem -->
                         <p>Rua  Roberto Brzezinski, 653, sala 01 - Campo Mourão/Paraná</p>
-                        <p>Telefone: (44)35231815 | Email: Contato@hotmail.com</p>
+                        <p>Telefone: (44) 3523-1815 | Email: Contato@hotmail.com</p>
                         <!-- Google Maps -->
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.425194085611!2d-52.3759135!3d-24.051326899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed75437f65ca71%3A0xe958d6a338c50a93!2sEscrit%C3%B3rio%20Contato%20Contabilidade%20-%20Campo%20Mour%C3%A3o%20PR!5e0!3m2!1spt-BR!2sbr!4v1749681286298!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </section>
@@ -160,5 +178,32 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+<script>
+  function aceitarCookies() {
+    localStorage.setItem('cookieConsent', 'aceito');
+    document.getElementById('cookieModal').style.display = 'none';
+    // Ative scripts de terceiros aqui, se necessário
+  }
+
+  function recusarCookies() {
+    localStorage.setItem('cookieConsent', 'recusado');
+    document.getElementById('cookieModal').style.display = 'none';
+    // Bloqueie ou desative cookies desnecessários aqui
+  }
+
+  function abrirConfig() {
+    alert('Painel de configuração em breve...');
+    // Aqui você pode abrir outro modal com opções de personalização de cookies
+  }
+
+  window.onload = function () {
+    const consent = localStorage.getItem('cookieConsent');
+    if (!consent) {
+      document.getElementById('cookieModal').style.display = 'flex';
+    }
+  };
+</script>
+
 </body>
 </html>

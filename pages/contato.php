@@ -46,8 +46,8 @@
 
     <div class="form-check mb-3">
       <input class="form-check-input" type="checkbox" id="termos" name="termos" required>
-      <label class="form-check-label" for="termos">Concordo com o envio desse email</label>
-      <div class="invalid-feedback">Você deve aceitar o envio.</div>
+      <label class="form-check-label" for="termos">Concordo com o envio das informações acima para contato</label>
+      <div class="invalid-feedback">Você deve concordar com o envio.</div>
     </div>
 
     <button type="submit" class="btn btn-secondary">Enviar</button>
